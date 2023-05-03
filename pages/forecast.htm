@@ -1,0 +1,15 @@
+<p>
+    <a href="#/">Back to Search</a>
+</p>
+
+Forecast for {{ city }}
+<hr />
+Number of intervals: <a href="#/forecast/3" ng-class="{ 'bg-primary': count === '3'}">3</a> | <a href="#/forecast/5" ng-class="{ 'bg-primary': count === '5'}">5</a> | <a href="#/forecast/7" ng-class="{ 'bg-primary': count === '7'}">7</a>
+
+<div ng-repeat="w in weatherResult.list">
+    <div class="row">
+        <div class="col-md-12">
+            <weather-report weather-interval="w" convert-to-standard="convertKelvinToDegreeCelsius(intervalTemp)" convert-to-date="convertToDate(dt)" date-format="d MMM, y - HH:mm"></weather-report>
+        </div>
+    </div>
+</div>
