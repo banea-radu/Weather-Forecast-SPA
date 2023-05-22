@@ -5,7 +5,10 @@
     - Get Temperature Forecast for 3, 5 or 7 daytime intervals for a city in Degrees Celsius
     - form for entering the city name
     - selection of how many daytime intervals shoul be displayed for the searched city
-
+  
+  ## Udemy course: Learn and Understand AngularJS - Created by Anthony Alicea
+  ## [Course Link]: https://www.udemy.com/course/learn-angularjs/
+  
 ## Technologies used:
 <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
